@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
-html[dir='rtl'] .ui.button{
+html[dir='rtl'] body,
+html[dir='rtl'] .ui.button,
+html[dir='rtl'] h1,
+html[dir='rtl'] h2,
+html[dir='rtl'] h3,
+html[dir='rtl'] h4,
+html[dir='rtl'] h5,
+html[dir='rtl'] p{
   font-family: 'Tajawal', sans-serif;
 }

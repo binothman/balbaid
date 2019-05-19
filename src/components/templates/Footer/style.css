@@ -1,0 +1,27 @@
+.page-footer{
+  background: #383b63;
+  padding: 50px 0;
+}
+
+.footer-widget{
+  color: #a7a7a7;
+}
+.footer-widget__title{
+  border-bottom: 2px solid #72737b;
+  color: #fff;
+}
+.footer-widget__list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 30px;
+}
+.footer-copyright{
+  background: #2f3254;
+  width: 100%;
+  padding: 30px 0;
+  margin-bottom: -50px;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}

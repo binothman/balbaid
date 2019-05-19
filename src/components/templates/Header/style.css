@@ -6,6 +6,7 @@
   width: 100%;
   top: 0;
   background: #fff;
+  z-index: 100;
 }
 .main-header .ui.button,
 .main-header .ui.button:hover{
@@ -16,5 +17,5 @@
   color: #764ba2;
 }
 .main-header .ui.button:hover{
-  color: #47c1c9;
+  color: #d62b57;
 }

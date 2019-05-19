@@ -1,0 +1,8 @@
+.widget-brands{
+  display: flex;
+  justify-content: center;
+}
+
+.widget-brands__img{
+  margin: 0 50px;
+}
