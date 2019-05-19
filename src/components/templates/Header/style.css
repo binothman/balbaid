@@ -1,0 +1,20 @@
+.main-header{
+  border-top: 2px solid #764ba2;
+  padding: 5px 0;
+  box-shadow: 1px 0 10px rgba(0,0,0, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+.main-header .ui.button,
+.main-header .ui.button:hover{
+  background: none;
+}
+.main-header .ui.button{
+  font-size: 16px;
+  color: #764ba2;
+}
+.main-header .ui.button:hover{
+  color: #47c1c9;
+}
