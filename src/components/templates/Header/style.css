@@ -9,7 +9,10 @@
   z-index: 100;
 }
 .main-header .ui.button,
-.main-header .ui.button:hover{
+.main-header .ui.button:hover,
+.main-header .ui.active.button,
+.main-header .ui.active.button:hover,
+.main-header .ui.button:focus{
   background: none;
 }
 .main-header .ui.button{
@@ -17,5 +20,12 @@
   color: #764ba2;
 }
 .main-header .ui.button:hover{
-  color: #d62b57;
+  color: #e4306f;
+}
+.social-links {
+  color: #9e9ea2;
+}
+.main-header .ui.active.button,
+.main-header .ui.active.button:hover{
+  color: #e4306f;
 }

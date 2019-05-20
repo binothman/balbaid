@@ -1,0 +1,19 @@
+.page-container{
+  padding: 70px 0;
+}
+.page-container,
+.page-container p{
+  line-height: 30px;
+  font-size: 18px;
+  text-align: justify;
+}
+.page-container h1, .page-container h2{
+  color: #663796;
+  border-bottom: 2px solid #e4306f;
+  display: inline-block;
+  padding-left: 10px;
+}
+.page-container h2{
+  font-size: 20px;
+  border-color: #663796;
+}

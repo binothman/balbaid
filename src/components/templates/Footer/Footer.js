@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Grid } from 'semantic-ui-react'
+import { NavLink } from 'react-router-dom'
 
 import Widget from './Widget'
 import Logo from 'assets/images/footer-logo.png'
@@ -14,9 +15,9 @@ const Footer = () => (
               title="عناويننا"
               content={
                 <ul className="footer-widget__list">
-                  <li>المكتب الرئيسي - الرياض</li>
-                  <li>هاتف : 4324234</li>
-                  <li>فاكس: 332132</li>
+                  <li>الاداره - المكتب الرئيسي٬ الرياض</li>
+                  <li>هاتف : 00966112133590</li>
+                  <li>فاكس: 0096614955113</li>
                 </ul>
               }
             />
@@ -39,8 +40,16 @@ const Footer = () => (
               title="روابط مفيده"
               content={
                 <ul className="footer-widget__list">
-                  <li>من نحن</li>
-                  <li>للاتصال بنا</li>
+                  <li>
+                    <NavLink to="/about" activeClassName="active">
+                      من نحن
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/contact" activeClassName="active">
+                      للاتصال بنا
+                    </NavLink>
+                  </li>
                   <li>المنتجات</li>
                 </ul>
               }

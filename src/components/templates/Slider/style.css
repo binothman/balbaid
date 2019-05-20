@@ -1,4 +1,62 @@
 .home-slider{
   background: url('http://balbaidest.com/wp-content/themes/balbaid/images/slider/11.jpg');
   height: 500px;
+  width: 100%;
+}
+
+
+.slide-container {
+  width: 100%;
+  margin: auto;
+  direction: ltr;
+}
+
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: rgba(47, 50, 84 , .7);
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  line-height: 60px;
+  font-size: 30px;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
+
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+@media only screen and (max-width: 700px) {
+  .each-slide span{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
 }

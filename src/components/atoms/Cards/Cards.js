@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Cards = ({ children, gap, cardWidth }) => (
+const Cards = ({ children, gap, cardWidth, centered }) => (
   <div
-    className="bricks-cards"
+    className={`bricks-cards ${centered && 'bricks-cards--centered'}`}
     style={{
       gridGap: gap,
       gridTemplateColumns: `repeat(auto-fill, minmax(${cardWidth}, 1fr))`,

@@ -9,3 +9,6 @@
   color: #4f6d85;
   border-radius: 3px;
 }
+.bricks-cards--centered .bricks-cards__card{
+  text-align: center;
+}

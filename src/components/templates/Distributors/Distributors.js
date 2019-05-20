@@ -33,7 +33,7 @@ import Tide from 'assets/images/distributors/tide.png'
 
 const Distributors = () => (
   <div>
-    <Cards cardWidth="180px" gap="20px">
+    <Cards cardWidth="180px" gap="20px" centered>
       <Card><img src={CocaCola} /></Card>
       <Card><img src={Pepsi} /></Card>
       <Card><img src={Alrabea} /></Card>

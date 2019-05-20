@@ -1,17 +1,13 @@
 import React from 'react'
 
-import Header from 'components/templates/Header'
 import Slider from 'components/templates/Slider'
 import Widget from 'components/atoms/Widget'
 import Introduction from 'components/templates/Introduction'
 import Brands from 'components/templates/Brands'
 import Distributors from 'components/templates/Distributors'
 
-import Footer from 'components/templates/Footer'
-
 const Home = () => (
   <div>
-    <Header />
     <Slider />
     <Widget
       title="نبذه عن المؤسسه"
@@ -28,8 +24,6 @@ const Home = () => (
       title="موزعين معتمدين ل"
       content={<Distributors />}
     />
-
-    <Footer />
   </div>
 )
 

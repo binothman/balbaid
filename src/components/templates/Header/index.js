@@ -1,5 +1,6 @@
 import Header from './Header'
+import HOC from './HOC'
 
 import './style.css'
 
-export default Header
+export default HOC(Header)

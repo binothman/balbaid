@@ -3,9 +3,13 @@
   padding: 50px 0;
 }
 
-.footer-widget{
+.footer-widget,
+.footer-widget a{
   color: #a7a7a7;
 }
+  .footer-widget a:hover{
+    color: #fff;
+  }
 .footer-widget__title{
   border-bottom: 2px solid #72737b;
   color: #fff;
@@ -23,5 +27,8 @@
   margin-bottom: -50px;
   margin-top: 20px;
   text-align: center;
+  color: #fff;
+}
+.footer-widget a.active{
   color: #fff;
 }

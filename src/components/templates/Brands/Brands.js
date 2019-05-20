@@ -8,10 +8,10 @@ const Brands =  () => (
   <div className="widget-brands">
     <Grid>
       <Grid.Column computer={8} mobile={16} textAlign="center">
-        <img src={AbuDalla} />
+        <img src={AbuDalla} width="100%" />
       </Grid.Column>
       <Grid.Column computer={8} mobile={16} textAlign="center">
-        <img src={AbuSiarh} />
+        <img src={AbuSiarh} width="100%" />
       </Grid.Column>
     </Grid>
   </div>

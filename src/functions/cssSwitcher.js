@@ -24,11 +24,16 @@ export const loadCSS = file => {
 
 export const semanticUiRTLSwitcher = dir => {
   if (dir === 'rtl') {
+    // removeJsCssFile('/new/assets/semantic-ui/semantic.min.css', 'css')
+    // loadCSS('/new/assets/semantic-ui/semantic.rtl.min.css')
     removeJsCssFile('/assets/semantic-ui/semantic.min.css', 'css')
     loadCSS('/assets/semantic-ui/semantic.rtl.min.css')
   } else {
+    // removeJsCssFile('/new/assets/semantic-ui/semantic.rtl.min.css', 'css')
+    // loadCSS('/new/assets/semantic-ui/semantic.min.css')
     removeJsCssFile('/assets/semantic-ui/semantic.rtl.min.css', 'css')
     loadCSS('/assets/semantic-ui/semantic.min.css')
   }
+  // loadCSS('/new/assets/css/style.css')
   loadCSS('/assets/css/style.css')
 }

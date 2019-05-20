@@ -1,5 +1,6 @@
 {
   "name": "balbaid",
+  "homepage": "/new",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
+    "react-slideshow-image": "^1.1.8",
     "semantic-ui-react": "^0.87.1"
   },
   "scripts": {
